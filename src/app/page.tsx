@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
       <main>
         <section id="inicio" className="contenedor">
-          <h1>PrimeNex IT</h1>
+          <h2 className="section-title">Our Work</h2>
           <p>
             PrimeNex IT stands out by delivering cutting-edge technological solutions tailored 
             to the modern market's most demanding needs. Our team of dedicated and skilled professionals
@@ -36,7 +36,6 @@ export default function Home() {
             optimized at all times.
           </p>
           <Carousel />
-
         </section>
         <ServicesSection />
         <AboutUs />
